@@ -1,13 +1,32 @@
 body {
     background-color: lightsteelblue;
   }
-  
+  a{
+    color: saddlebrown;
+    font-size: 130%;
+  }
+  a:hover{
+    font-size: 160%;
+    color: papayawhip;
+    background-color: cyan;
+    border: 3px solid black;
+  }
   h1 {
     color: white;
     text-align: center;
   }
-  
   p {
     font-family: verdana;
     font-size: 20px;
+  }
+  .active{
+    color: lawngreen;
+    background-color: saddlebrown;
+    border: 3px solid black;
+  }
+  p{
+    color: steelblue;
+  }
+  h2{
+    color: seashell;
   }
